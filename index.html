@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <img width="47" height="20" src="./src/img/logo.svg" alt="Vill logo.">
+    </header>
+    <main>
+      <section class="promo">
+        <picture>
+          <source media="(min-width: 768px)" srcset="./src/img/tree-desktop.png" width="1270">
+          <img class="promo__tree" src="./src/img/tree.png" alt="">
+        </picture>
+        <div class="promo__flex-wrap">
+          <h3 class="heading--bordered">Открытый урок</h3>
+          <div class="promo__heading-wrap">
+            <h3 class="heading--bordered heading--animated">В пятницу 13 октября</h3>
+            <h3 class="heading--bordered heading--bordered-time">В 19:00</h3>
+          </div>
+        </div>
+        <h1>Как&#160;стать востр<span class="promo__back">е</span>бованным <span class="promo__back">графическим </span>дизайнером</h1>  
+        <h2 class="promo__heading2">и зарабатывать на&#160;своей уникальности</h2>
+        <div class="promo__flex-wrap-spinner">
+          <button class="promo__button">Принять участие</button>
+          <img class="promo__spinner" width="125" height="125" src="./src/img/spinner.png" alt="47 spots left!">
+        </div>
+        <img class="promo__burton" width="436" src="./src/img/burton.png" alt="Burton at work.">
+      </section>
+
+      <section class="carousel">
+        <img class="carousel__img" src="/src/img/post.png" width="300" alt="Stations.">
+        <div class="container">
+          <input type="radio" name="slider" id="item-1" checked>
+          <input type="radio" name="slider" id="item-2">
+          <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+          <label class="card" for="item-1" id="song-1">
+            <h2 class="station__name"> Шоколадная фабрика </h2>
+            <img class="station__img" width="240" src="./src/img/wonka.png" alt="Chocolate factory">
+            <p class="station__text">Поговорим о том, как уникальный стиль в дизайне повышает ваш чек.</p>
+            <p class="station__text station__text--bordered">«Чтобы стать дизайнером, не нужно быть особенным. Нужно быть собой»</p>
+            <br/>
+            <div class="station__plaque">
+              <span>Остановка</span>
+            </div>
+          </label>
+          <label class="card" for="item-2" id="song-2">
+            <h2 class="station__name">Сонная лощина</h2>
+            <img class="station__img" width="240" src="./src/img/hollow.png" alt="Sleeping hollow">
+            <p class="station__text">Расскажем, что делать, если дедлайн уже сгорел, а идей и вдохновения всё ещё нет</p>
+            <p class="station__text station__text--bordered">«Вы можете запереть двери. Вы можете закрыть окна. Но сможете ли вы пережить эту ночь… если у вас горит дедлайн?»</p>
+            <div class="station__plaque">
+              <span>Остановка</span>
+            </div>
+          </label>
+          <label class="card" for="item-3" id="song-3">
+            <h2 class="station__name"> Труп невесты </h2>
+            <img class="station__img" width="240" src="./src/img/station-3.png" alt="Corpse bride">
+            <p class="station__text">Поговорим о том, как уникальный стиль в дизайне повышает ваш чек.</p>
+            <p class="station__text station__text--bordered">«Чтобы стать дизайнером, не нужно быть особенным. Нужно быть собой»</p>
+            <div class="station__plaque">
+              <span>Остановка</span>
+            </div>
+          </label>
+        </div>
+      </section>
+
+
+      <div class="sticky-parent">
+        <div class="sticky">
+          <h2>Не пропустите эфир, если вы:</h2>
+          <section class="scroll-section" id="horizontal-scroll">
+            <article class="article article--1">
+              <img class="article__img" width="200" src="./src/img/article1.png" alt="">
+              <p class="article__heading">Имеете небольшой опыт в&#160;дизайне и уперлись в&#160;«потолок» в доходе</p>
+              <p class="article__text">Но хотите освоить новые навыки, научиться продавать свои работы дорого и сформировать очередь из заказчиков</p>
+            </article>
+            <article class="article article--2">
+              <img class="article__img" width="200" src="./src/img/article2.png" alt="">
+              <p class="article__heading">Хотите сформировать свой уникальный стиль </p>
+              <p class="article__text">и создать собственный бренд, но не знаете, с чего начать</p>
+            </article>
+            <article class="article article--1">
+              <img class="article__img" width="200" src="./src/img/article3.png" alt="">
+              <p class="article__heading">Хотите получить востребованную креативную профессию и&#160;сменить работу</p>
+              <p class="article__text">Чтобы впустить в жизнь больше творчества и достойно зарабатывать на красивом</p>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
