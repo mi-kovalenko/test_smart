@@ -3,7 +3,6 @@
 @import url('station.scss');
 @import url('article.scss');
 @import url('promo.scss');
-@import url('variables.scss');
 
 body {
   display: flex;
@@ -150,15 +149,18 @@ input[type=radio] {
 
 
 
-@media (min-width: 1450px) {
+@media (min-width: 1228px) {
   header {
     max-width: 1150px;
+
+    img {
+      padding-top: 70px;
+    }
   }
 
   header {
     width: 100%;
     margin: 0 auto;
-    padding-top: 70px;
   }
 
   h1 {
