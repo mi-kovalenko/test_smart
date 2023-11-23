@@ -101,6 +101,10 @@ input[type=radio] {
   overflow: hidden;
 }
 
+.carousel__img {
+  display: none;
+}
+
 .container {
   width: 100%;
   max-width: 800px;
@@ -154,6 +158,7 @@ input[type=radio] {
   header {
     width: 100%;
     margin: 0 auto;
+    padding-top: 70px;
   }
 
   h1 {
@@ -193,5 +198,6 @@ input[type=radio] {
     position: absolute;
     bottom: 60px;
     left: 120px;
+    display: block;
   }
 }
